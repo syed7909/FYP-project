@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-25 10:27:52 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ahmadsyed/2022-05-25-10-27-48/osm.net.xml"/>
+        <route-files value="/Users/ahmadsyed/2022-05-25-10-27-48/osm.bus.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ahmadsyed/2022-05-25-10-27-48/osm.bus.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+    <trip id="bus0" type="bus_bus" depart="0.00" departLane="best" from="27381036#11" to="-232960184#1"/>
+    <trip id="bus1" type="bus_bus" depart="2.46" departLane="best" from="-676091409#1" to="-703441608#0"/>
+    <trip id="bus2" type="bus_bus" depart="4.92" departLane="best" departSpeed="max" from="-75653298#3" to="-232960195#1">
+     <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_8" duration="30"/>
+        <stop busStop="bs_7" duration="30"/>
+        <stop busStop="bs_6" duration="30"/>
+        <stop busStop="bs_5" duration="30"/>
+    </trip>
+    <trip id="bus3" type="bus_bus" depart="7.38" departLane="best" from="-637602054#1" to="253331512#3"/>
+    <trip id="bus4" type="bus_bus" depart="9.83" departLane="best" departSpeed="max" from="-232960170#2" to="-676091410#1"/>
+    <trip id="bus7" type="bus_bus" depart="17.21" departLane="best" departSpeed="max" from="709064515" to="-1027004110#6"/>
+    <trip id="bus8" type="bus_bus" depart="19.67" departLane="best" departSpeed="max" from="-75640992#2" to="-637602049#2"/>
+    <trip id="bus10" type="bus_bus" depart="24.59" departLane="best" from="-253337921#1" to="-33784126">
+     <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_10" duration="30"/>
+        <stop busStop="bs_2" duration="30"/>
+        <stop busStop="bs_1" duration="30"/>
+        <stop busStop="bs_3" duration="30"/>
+        
+    </trip>
+    <trip id="bus11" type="bus_bus" depart="27.05" departLane="best" from="75640999#5" to="349151259#1"/>
+    <trip id="bus12" type="bus_bus" depart="29.50" departLane="best" from="709064040#2" to="676091409#0"/>
+    <trip id="bus16" type="bus_bus" depart="39.34" departLane="best" from="75641021#6" to="27381036#4">
+        <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_10" duration="30"/>
+        <stop busStop="bs_2" duration="30"/>
+        <stop busStop="bs_1" duration="30"/>
+        <stop busStop="bs_0" duration="30"/>
+    </trip>
+    <trip id="bus17" type="bus_bus" depart="41.80" departLane="best" departSpeed="max" from="598986352" to="-253337919#0">
+        <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_10" duration="30"/>
+        <stop busStop="bs_8" duration="30"/>
+        <stop busStop="bs_6" duration="30"/>
+        <stop busStop="bs_1" duration="30"/>
+        
+    </trip>
+    <trip id="bus18" type="bus_bus" depart="44.26" departLane="best" departSpeed="max" from="-253335341#6" to="-709064039#1"/>
+    <trip id="bus19" type="bus_bus" depart="46.71" departLane="best" from="-253337925#7" to="-75641021#0"/>
+    <trip id="bus20" type="bus_bus" depart="49.17" departLane="best" from="26608458#1" to="-75653321#4"/>
+    <trip id="bus21" type="bus_bus" depart="51.63" departLane="best" from="-75641281#0" to="-703441605#2">
+     <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_9" duration="30"/>
+        <stop busStop="bs_8" duration="40"/>
+        <stop busStop="bs_3" duration="30"/>
+    </trip>
+    <trip id="bus23" type="bus_bus" depart="359.55" departLane="best" departSpeed="max" from="28743486" to="349155118#1">
+     <stop busStop="bs_11" duration="30"/>
+        <stop busStop="bs_10" duration="30"/>
+        <stop busStop="bs_2" duration="30"/>
+        <stop busStop="bs_1" duration="30"/>
+        <stop busStop="bs_3" duration="30"/>
+        
+    </trip>
+   
+</routes>

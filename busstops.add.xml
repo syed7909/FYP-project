@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-25 10:39:34 by Eclipse SUMO netedit Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/ahmadsyed/2022-05-25-10-27-48/osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ahmadsyed/2022-05-25-10-27-48/osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/ahmadsyed/2022-05-25-10-27-48/busstops.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="bs_0" lane="1027004110#6_1" startPos="38.82" endPos="48.82" personCapacity="15" color="green"/>
+    <busStop id="bs_1" lane="1027004110#4_1" startPos="157.44" endPos="167.44" personCapacity="15" color="green"/>
+    <busStop id="bs_10" lane="33774334#4_1" startPos="45.49" endPos="55.49" personCapacity="15" color="green"/>
+    <busStop id="bs_11" lane="33774334#1_1" startPos="20.76" endPos="30.76" personCapacity="15" color="green"/>
+    <busStop id="bs_2" lane="1027004110#3_1" startPos="110.39" endPos="120.39" personCapacity="15" color="green"/>
+    <busStop id="bs_3" lane="1027004110#1_1" startPos="172.33" endPos="182.33" personCapacity="15" color="green"/>
+    <busStop id="bs_4" lane="1027004111_1" startPos="96.38" endPos="106.38" personCapacity="15" color="green"/>
+    <busStop id="bs_5" lane="33774334#9_1" startPos="169.80" endPos="178.26" personCapacity="15" color="green"/>
+    <busStop id="bs_6" lane="33774334#9_1" startPos="17.35" endPos="27.35" personCapacity="15" color="green"/>
+    <busStop id="bs_7" lane="33774334#7_1" startPos="47.60" endPos="55.83" personCapacity="15" color="green"/>
+    <busStop id="bs_8" lane="33774334#6_1" startPos="301.89" endPos="311.89" personCapacity="15" color="green"/>
+    <busStop id="bs_9" lane="33774334#6_1" startPos="9.10" endPos="19.10" personCapacity="15" color="green"/>
+</additional>

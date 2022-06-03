@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-18 01:18:12 by Eclipse SUMO sumo Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.net.xml"/>
+        <route-files value="C:\Users\hp\Sumo\2022-04-18-01-17-59\trips.trips.xml"/>
+        <additional-files value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\hp\Sumo\2022-04-18-01-17-59\vehroutes.xml"/>
+        <stop-output value="C:\Users\hp\Sumo\2022-04-18-01-17-59\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\hp\Sumo\2022-04-18-01-17-59\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="bs_0" type="pt_bus" lane="1027004110#6_1" pos="49.37" parking="0" started="44.00" ended="74.00" delay="-1.00" initialPersons="3" loadedPersons="15" unloadedPersons="2" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_0"/>
+    <stopinfo id="bs_1" type="pt_bus" lane="1027004110#4_1" pos="8.71" parking="0" started="56.00" ended="86.00" delay="-1.00"  initialPersons="3" loadedPersons="15" unloadedPersons="2" loadedContainers="0" unloadedContainers="0" busStop="bs_1"/>
+    <stopinfo id="bs_2" type="pt_bus" lane="1027004110#3_1" pos="28.61" parking="0" started="143.00" ended="173.00" delay="-1.00" initialPersons="0" loadedPersons="0"  initialPersons="3" loadedPersons="15" unloadedPersons="2" unloadedContainers="0" busStop="bs_2"/>
+    <stopinfo id="bs_3" type="pt_subway" lane="1027004110#1_1" pos="213.31" parking="0" started="153.00" ended="183.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_2"/>
+    <stopinfo id="bs_4" type="pt_subway" lane="1027004111" pos="424.32" parking="0" started="161.00" ended="191.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_4"/>
+    <stopinfo id="bs_5" type="pt_subway" lane="33774334#9_1" pos="173.61" parking="0" started="179.00" ended="209.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_5"/>
+    <stopinfo id="bs_6" type="pt_bus" lane="33774334#7_1" pos="29.24" parking="0" started="181.00" ended="211.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_6"/>
+    <stopinfo id="bs_7" type="pt_subway" lane="33774334#6" pos="582.35" parking="0" started="243.00" ended="273.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_7"/>
+    <stopinfo id="bs_8" type="pt_subway" lane="33774334#6" pos="201.87" parking="0" started="255.00" ended="285.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_10"/>
+    <stopinfo id="bs_9" type="pt_bus" lane="33774334#4_1" pos="185.96" parking="0" started="262.00" ended="292.00" delay="-1.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" busStop="bs_11"/>
+    
+</stops>
